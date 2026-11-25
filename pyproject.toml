@@ -1,0 +1,14 @@
+[project]
+name = "thread-local-context-py"
+version = "0.1.0"
+description = "Stores request-scoped values in thread-local storage and passes them to threads."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
